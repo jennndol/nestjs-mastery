@@ -7,7 +7,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 @Module({
   imports: [CoffeesModule, TypeOrmModule.forRoot({
     type: 'postgres',
-    host: '127.0.0.1',
+    host: 'localhost',
     port: 5432,
     username: 'postgres',
     password: 'pass123',
